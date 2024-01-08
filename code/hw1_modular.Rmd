@@ -1,0 +1,74 @@
+---
+title: "hw1_modular"
+output: pdf_document
+date: "2023-01-16"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(matlib)   # use the package
+
+install.packages("matlib", dependencies = TRUE)
+```
+
+```{r}
+A = matrix(c(1, 1, 0, 1, 0, 0, 0, 0, 0,
+             1, 1, 1, 0, 1, 0, 0, 0, 0,
+             0, 1, 1, 0, 0, 1, 0, 0, 0,
+             1, 0, 0, 1, 1, 0, 1, 0, 0,
+             0, 1, 0, 1, 1, 1, 0, 1, 0,
+             0, 0, 1, 0, 1, 1, 0, 0, 1,
+             0, 0, 0, 1, 0, 0, 1, 1, 0,
+             0, 0, 0, 0, 1, 0, 1, 1, 1,
+             0, 0, 0, 0, 0, 1, 0, 1, 1),
+           byrow = TRUE,
+           nrow = 9,
+           ncol = 9)
+
+b = c(2,0,1,2,0,1,2,0,1)
+```
+
+```{r}
+showEqn(A, b)
+```
+
+```{r}
+```
+
+```{r}
+```
+
+```{r}
+```
+
+```{r}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
